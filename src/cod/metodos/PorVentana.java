@@ -1,4 +1,4 @@
-package cod;
+package cod.metodos;
 
 import javax.swing.*;
 
