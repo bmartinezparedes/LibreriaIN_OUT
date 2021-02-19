@@ -5,6 +5,7 @@ import javax.swing.*;
 public class PorVentana {
 
     public static void jopane(){
-        JOptionPane.showInputDialog("Pon lo que quieras");
+        String elemento=JOptionPane.showInputDialog("Pon lo que quieras");
+        System.out.println(elemento);
     }
 }
