@@ -6,7 +6,7 @@ public class PorTerminal {
 
  Scanner sr=new Scanner(System.in);
 
- public  void scanner(){
+ public  void visualiza(){
      System.out.println("Introducir mensaje");
      String elemento;
      elemento=sr.nextLine();
