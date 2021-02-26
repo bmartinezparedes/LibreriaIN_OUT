@@ -11,6 +11,6 @@ public class PorVentana implements InterfacesMetodosComunes{
 
     @Override
     public void visualiza() {
-        JOptionPane.showMessageDialog(null,"Sale por la ventana"+ msg);
+        JOptionPane.showMessageDialog(null,"Sale por la ventana "+ msg);
     }
 }

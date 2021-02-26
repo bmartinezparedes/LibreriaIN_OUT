@@ -1,15 +1,11 @@
 package cod.metodos;
 
-import javax.swing.*;
-import java.util.Scanner;
-
-public class PorTerminal implements InterfacesMetodosComunes {
+public class PorImpresora implements InterfacesMetodosComunes{
     private String msg;
 
-    public PorTerminal(String msg) {
+    public PorImpresora(String msg) {
         this.msg = msg;
     }
-
 
     @Override
     public void visualiza() {
