@@ -9,7 +9,7 @@ public class PorVentana {
         this.msg = msg;
     }
 
-    public  void visualiza(String msg){
+    public  void visualiza(){
         JOptionPane.showMessageDialog(null,"Sale por la ventana"+ msg);
     }
 }
