@@ -2,9 +2,7 @@ package cod.metodos;
 
 public class FactoriaDeSalidas {
     /**
-     * @param TERMINAL para la salida por terminal
-     * @param VENTANA para la salida por ventana
-     * @param IMPRESORA para la salida por impresora
+     *  para la salida
      */
     public static final int TERMINAL=1;
     public static final int VENTANA=2;
