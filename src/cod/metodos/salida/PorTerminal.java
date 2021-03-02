@@ -1,7 +1,6 @@
-package cod.metodos;
+package cod.metodos.salida;
 
-import javax.swing.*;
-import java.util.Scanner;
+import cod.metodos.salida.InterfacesMetodosComunes;
 
 public class PorTerminal implements InterfacesMetodosComunes {
     private String msg;

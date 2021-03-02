@@ -1,6 +1,8 @@
-package cod.metodos;
+package cod.metodos.salida;
 
-public class PorImpresora implements InterfacesMetodosComunes{
+import cod.metodos.salida.InterfacesMetodosComunes;
+
+public class PorImpresora implements InterfacesMetodosComunes {
     private String msg;
 
     public PorImpresora(String msg) {

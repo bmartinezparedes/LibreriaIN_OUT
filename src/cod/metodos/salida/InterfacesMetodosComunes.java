@@ -1,4 +1,4 @@
-package cod.metodos;
+package cod.metodos.salida;
 
 public interface InterfacesMetodosComunes {
 

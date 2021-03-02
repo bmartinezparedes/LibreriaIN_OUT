@@ -1,4 +1,4 @@
-package cod.metodos;
+package cod.metodos.salida;
 
 public class FactoriaDeSalidas {
     /**
@@ -14,7 +14,7 @@ public class FactoriaDeSalidas {
      * @param msg  mensaje que introducimos para visualizar
      * @return devuelve un objeto de tipo interfaz tipo del objeto elejido
      */
-    public static InterfacesMetodosComunes getProducto(int type,String msg){
+    public static InterfacesMetodosComunes getProducto(int type, String msg){
         switch(type){
             case TERMINAL:
                 return new PorTerminal(msg);
